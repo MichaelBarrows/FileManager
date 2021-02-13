@@ -1,0 +1,32 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css);
+nav {
+    margin-bottom: 30px;
+}
+
+.file-list {
+    /* border: 1px solid black; */
+
+}
+
+.file-list div {
+    border-bottom: 1px solid black;
+    align-self: stretch;
+}
+.row .col, .row .col-1 {
+    padding: 7.5px;
+    display: flex;
+    align-items: center;
+}
+.row div p, .row div form {
+    width: 100%;
+}
+
+.file-list div.heading {
+    font-weight: 700;
+}
+
+.file-list div p {
+    text-align: center;
+    margin: 0;
+}
+
